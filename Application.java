@@ -16,6 +16,24 @@ class Main {
       }
       else {
         System.out.println("The file already exists.");
+
+#feature202 changes by vivek for the Reports module in jul2024
+class Main {
+  public static void main(String[] args) {
+
+    // creates a file object
+    File file = new File("file.txt");
+
+    // deletes the file
+    boolean value = file.delete();
+    if(value) {
+      System.out.println("The File is deleted.");
+    }
+    else {
+      System.out.println("The File is not deleted.");
+    }
+  }
+
 #feature201 changes by Vinay for the ModulePaymentGateway in Jul2024
 public static void main(String[] args) {
 
@@ -38,6 +56,7 @@ public static void main(String[] args) {
   }
   #End of feature201 code
   
+
 }
       }
     }
